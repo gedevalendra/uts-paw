@@ -1,10 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Pameran PKM Mahasiswa Teknik Informatika",
+    "kategori": "Pameran",
+    "tanggal": "1 November 2026",
+    "lokasi": "Gedung E - Institut Teknologi Sumatera",
+    "penyelenggara": "HMIF ITERA"
+  },
+    {
+    "id": "2",
+    "judul": "Seminar Cyber Security",
+    "kategori": "Seminar",
+    "tanggal": "19 November 2026",
+    "lokasi": "Aula GK2 - Institut Teknologi Sumatera",
+    "penyelenggara": "Raven Community ITERA"
+  },
+    {
+    "id": "3",
+    "judul": "Sosialisasi Kurikulum Baru Teknik Informatika",
+    "kategori": "Sosialisasi",
+    "tanggal": "20 November 2026",
+    "lokasi": "Aula GK2 - Institut Teknologi Sumatera",
+    "penyelenggara": "Teknik Informatika ITERA"
+  },
+    {
+    "id": "4",
+    "judul": "Pengenalan Prodi Teknik Informatika Mahasiswa Baru",
+    "kategori": "Sosialisasi",
+    "tanggal": "26 Juli 2026",
+    "lokasi": "Aula GK1 - Institut Teknologi Sumatera",
+    "penyelenggara": "PPLK ITERA"
+  },
+    {
+    "id": "5",
+    "judul": "Riuh Wisuda Ke-20 ITERA",
+    "kategori": "Pameran",
+    "tanggal": "27 November 2026",
+    "lokasi": "Institut Teknologi Sumatera",
+    "penyelenggara": "ITERA"
+  },
+    {
+    "id": "6",
+    "judul": "Dies Natalis ITERA Ke-14",
+    "kategori": "Dies Natalis",
+    "tanggal": "12 November 2026",
+    "lokasi": "Aula GK2 - Institut Teknologi Sumatera",
+    "penyelenggara": "ITERA"
+  },
+    {
+    "id": "7",
+    "judul": "Pemilihan Umum Raya KM ITERA",
+    "kategori": "Politik Kampus",
+    "tanggal": "18 Desember 2026",
+    "lokasi": "WICO GK2 - Institut Teknologi Sumatera",
+    "penyelenggara": "KM ITERA"
+  },
+    {
+    "id": "8",
+    "judul": "Anugrah Humas ITERA (AHI)",
+    "kategori": "Pameran",
+    "tanggal": "12 Desember 2026",
+    "lokasi": "Pelataran Embung C - Institut Teknologi Sumatera",
+    "penyelenggara": "Humas ITERA"
+  },
+    {
+    "id": "9",
+    "judul": "Sosialisasi Kuliah Kerja Nyata (KKN) ITERA Periode Ke-18",
+    "kategori": "Sosialisasi",
+    "tanggal": "14 November 2026",
+    "lokasi": "Aula GK2 - Institut Teknologi Sumatera",
+    "penyelenggara": "KKN ITERA"
+  },
+    {
+    "id": "10",
+    "judul": "Sosialisasi Qris Tap dan Peresmian BRT ITERA",
+    "kategori": "Sosialisasi",
+    "tanggal": "10 Agustus 2026",
+    "lokasi": "Aula GK2 - Institut Teknologi Sumatera",
+    "penyelenggara": "ITERA"
   }
 ]

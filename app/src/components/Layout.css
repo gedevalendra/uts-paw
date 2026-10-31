@@ -13,13 +13,6 @@
   font-weight: 600;
 }
 
-.isi {
-  flex: 1;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-}
-
 .kaki {
   padding: 1rem 1.5rem;
   border-top: 1px solid #dcdcdc;

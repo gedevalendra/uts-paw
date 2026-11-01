@@ -21,11 +21,11 @@ export default function Layout() {
   }
   return (
     <div className="kerangka relative">
-      <header className="z-[10000] sticky top-0 w-full flex justify-between items-center p-[1%] backdrop-blur-md">
+      <header className="z-[10000] sticky top-0 w-full flex flex-col md:flex-row justify-between items-center p-[1%] backdrop-blur-md">
         <strong className='text-gray-800'>
           AgendaKampus
         </strong>        
-        <nav className="hidden md:flex text-gray-800 gap-2 hover bg-white shadow-md px-4 py-2 rounded-full">
+        <nav className="flex text-gray-800 gap-2 hover bg-white shadow-md px-4 py-2 rounded-full">
           {MENU.map(({ ke, label }) => (
             <NavLink key={ke} to={ke} end={ke === '/'}
               className={({ isActive }) => 
@@ -40,7 +40,7 @@ export default function Layout() {
             </NavLink>
           ))}
         </nav>
-        <nav className='flex items-center gap-4'>
+        <nav className='hidden md:flex items-center gap-4'>
           <a href="https://github.com/gedevalendra" className={`flex items-center gap-2 bg-gray-800 py-2 px-4 rounded-md text-white `}>
             <i className='bxl bx-github text-xl'></i>
             GitHub

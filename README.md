@@ -28,9 +28,12 @@ git clone https://github.com/gedevalendra/uts-paw.git
 ```bash
 cd app
 ```
-3. Untuk Menjalankan App Cukup Gunakan Perintah Dibawah Ini.
+3. Jalankan perintah dibawha ini untuk menginstall node_modules
 ```bash
 npm install
+```
+4. Untuk Menjalankan App Cukup Gunakan Perintah Dibawah Ini.
+```bash
 npm run dev
 ```
 ## Konsep React yang dipakai

@@ -1,0 +1,27 @@
+#btnHapus {
+    color:white;
+    background-color: rgb(196, 0, 0);
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+    padding:4px 16px;
+    border-radius: 10px;
+}
+
+#btnHapus:hover {
+    background-color: rgba(255, 0, 0, 0.453);
+    transform: scale(0.95);
+}
+
+#btnKembali {
+    color:white;
+    background-color: rgb(0, 95, 196);
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+    padding:4px 16px;
+    border-radius: 10px;
+}
+
+#btnKembali:hover {
+    background-color: rgba(0, 170, 255, 0.453);
+    transform: scale(0.95);
+}

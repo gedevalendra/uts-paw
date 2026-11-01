@@ -21,17 +21,11 @@ export default function Layout() {
   }
   return (
     <div className="kerangka relative">
-      <aside className={`z-1000 fixed flex flex-col gap-4 right-[-100vh] top-0 p-[2%] w-full max-w-xs h-screen bg-white shadow-xl transition-all duration-200 ease-in-out ${isSidebarShow ? 'right-0' : 'right-[-100vh'}`}>
-        <div className="flex items-center justify-between">
-        </div>
-        <hr />
-      </aside>
-
       <header className="z-[10000] sticky top-0 w-full flex justify-between items-center p-[1%] backdrop-blur-md">
         <strong className='text-gray-800'>
           AgendaKampus
         </strong>        
-        <nav id='' className="hidden md:flex text-gray-800 gap-2 hover bg-white shadow-md px-4 py-2 rounded-full">
+        <nav className="hidden md:flex text-gray-800 gap-2 hover bg-white shadow-md px-4 py-2 rounded-full">
           {MENU.map(({ ke, label }) => (
             <NavLink key={ke} to={ke} end={ke === '/'}
               className={({ isActive }) => 
@@ -51,9 +45,6 @@ export default function Layout() {
             <i className='bxl bx-github text-xl'></i>
             GitHub
           </a>
-          <button onClick={toggleSidebar} className='flex md:hidden'>
-            <i className={`bx ${isSidebarShow ? 'bx-x' : 'bx-menu'} text-xl outline outline-[2px] outline-gray-700/5 hover:outline-gray-700/50 rounded-md p-2 px-4  hover:scale-95 transition-all duration-200`}></i>        
-          </button>
         </nav>
       </header>
       <main className="w-full max-w-7xl">

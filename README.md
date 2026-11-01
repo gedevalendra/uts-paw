@@ -1,11 +1,13 @@
 # Judul Aplikasi : Manajemen Agenda Kampus
 
-Nama: Gede Valendra
-NIM: 124140142
-Kelas: RB
-Tema: Agenda Kegiatan Kampus
-Deployment: https://gedevalendra.github.io/uts-paw/
+## Identitas Mahasiswa
+- Nama: Gede Valendra
+- NIM: 124140142
+- Kelas: RB
+- Tema: Agenda Kegiatan Kampus
+- Deployment: https://gedevalendra.github.io/uts-paw/
 
+## Tangkapan Layar Beranda
 ![Tangkapan layar beranda](docs/beranda.png)
 
 ## Fitur

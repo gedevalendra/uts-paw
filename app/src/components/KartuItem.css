@@ -1,0 +1,8 @@
+.BtnDetailKoleksi {
+    background-color: rgb(72, 151, 255);
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    padding: 4px 8px;
+}

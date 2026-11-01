@@ -12,10 +12,9 @@ export default function Koleksi() {
   if (error) return <p role="alert">Gagal memuat: {error}</p>
 
   const daftarKategori = ['Semua', ...new Set(items.map((item) => item.kategori))]
-  const tampil = items.filter((itemKoleksi)=> {
-    const filterByJudul = itemKoleksi.judul.toLowerCase().includes(cari.toLowerCase());
-    return filterByJudul;
-  })
+  const tampil = items.filter(
+    (item) => item.judul.toLowerCase().includes(cari.toLowerCase()) && (kategori === 'Semua' || item.kategori === kategori),
+  )
 
   return (
     <section className='bg-white p-10 rounded-xl flex flex-col items-center justify-center gap-4'>

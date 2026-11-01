@@ -1,0 +1,27 @@
+.TentangSection {
+    width: 100%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#tentangH1 {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.ttgGrup {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.ttgGrup dd {
+    text-decoration: underline;
+}
